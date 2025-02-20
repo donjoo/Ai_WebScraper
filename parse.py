@@ -12,14 +12,14 @@ template = (
 )
 
 
-model = OllamaLLM(model = "llama3.1")
+model = OllamaLLM(model = "llama3.1:latest")
 
 
 def parse_with_ollama(dom_chunks, parse_description):
         prompt = ChatPromptTemplate.from_template(template)
         chain = prompt | model
 
-        parse_results = []
+        parsed_results = []
 
         for i, chunk in enumerate(dom_chunks, start=1):
             response = chain.invoke(
@@ -29,4 +29,4 @@ def parse_with_ollama(dom_chunks, parse_description):
             print(f"parsed batch {i} of {len(dom_chunks)}")
             parsed_results.append(response)
 
-        return "\n".join(parse_results)
+        return "\n".join(parsed_results)
