@@ -4,6 +4,9 @@ import time
 from bs4 import BeautifulSoup
 
 
+# want to make this srolleble:, so it can extract more data
+
+
 def scrape_website(website):
     print("Launching chrome browser....")
 
