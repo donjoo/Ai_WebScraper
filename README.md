@@ -14,7 +14,12 @@ An intelligent web scraping application built with **Python**, powered by **Sele
 
 ## 📷 Preview
 
-*(Insert screenshot here if available)*
+![home_page](images/home.jpeg)
+
+
+## Result
+
+![result](images/result.jpeg)
 
 ---
 
@@ -113,16 +118,4 @@ streamlit run main.py
 
 ---
 
-## 📄 License
 
-This project is licensed under the MIT License.
-
----
-
-## 🙌 Acknowledgements
-
-* [LangChain](https://www.langchain.com/)
-* [Ollama](https://ollama.com)
-* [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/)
-* [Streamlit](https://streamlit.io/)
-* [Selenium](https://www.selenium.dev/)
