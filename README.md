@@ -2,6 +2,8 @@
 
 An intelligent web scraping application built with **Python**, powered by **Selenium**, **BeautifulSoup**, **LangChain**, and **Ollama**. This app takes a website URL, scrapes and cleans the DOM content, and lets you interact with the scraped data using natural language prompts. Perfect for extracting structured info from unstructured web pages using AI.
 
+
+
 ## 🚀 Features
 
 * 🔗 Enter any website URL to scrape
@@ -118,4 +120,6 @@ streamlit run main.py
 
 ---
 
+
+[![💻 Built at TinkerSpace](https://img.shields.io/badge/Built%20at-TinkerSpace-blueviolet?style=for-the-badge&label=%F0%9F%92%BBBuilt%20at&labelColor=turquoise&color=white)](https://tinkerhub.org/tinkerspace)
 
